@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     line-height: 1.3;
-    font-family: 'ZCOOL KuaiLe', cursive;
+    font-family: 'Noto Sans', sans-serif;
 } 
 
 a{
@@ -36,5 +36,42 @@ nav {
 }
 
 .navigation-bar ul {
-    
+    padding: 0;
+    margin: 0;
 }
+
+.navigation-bar ul li {
+    display: inline-block;
+    margin: 0 25px;
+}
+
+.navigation-bar ul li:last-child {
+    margin-right: 0px;
+}
+
+.navigation-bar ul li a{
+    font-size: 14px;
+    color: #222222;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: all 0.3s ease-in-out;
+}
+
+navigation-bar ul li a:hover{
+    color: #80c894;
+
+}
+
+
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #d9fce7;
+    font-weight: normal;
+    font-weight: 600;
+    color: #80c894;
+}
+
